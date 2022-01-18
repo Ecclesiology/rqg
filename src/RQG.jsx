@@ -4,7 +4,6 @@ const React = require( "react" );
 const ReactDOM = require( "react-dom" );
 const $ = require( "jquery" );
 
-
 const Jesus = document.getElementById( "Jesus" ),
 	Einstein = document.getElementById( "einstein" ),
 	Martin = document.getElementById( "martin" ),
@@ -58,7 +57,6 @@ $( document ).ready( function() {
 			},
 			direction: 'normal'
 		} );
-		console.log( gId )
 		return gId;
 	} );
 } );
