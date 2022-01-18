@@ -1,6 +1,5 @@
 import "./RQG.css"
 const React = require("react");
-require("bootstrap");
 const ReactDOM = require("react-dom");
 const $ = require("jquery");
 const anime = require("animejs");
